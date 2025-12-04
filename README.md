@@ -1,2 +1,2 @@
 # BrickSim
-simulator for being a brick
+Be bold, be solid, be simple, be a BRICK

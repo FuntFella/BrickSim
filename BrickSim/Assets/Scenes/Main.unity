@@ -119,7 +119,11 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
+HEAD
 --- !u!1 &1885168166
+=======
+--- !u!1 &1303709278
+>>>>>>> Wyatt
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -127,10 +131,17 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
+HEAD
   - component: {fileID: 1885168170}
   - component: {fileID: 1885168169}
   - component: {fileID: 1885168168}
   - component: {fileID: 1885168167}
+=======
+  - component: {fileID: 1303709282}
+  - component: {fileID: 1303709281}
+  - component: {fileID: 1303709280}
+  - component: {fileID: 1303709279}
+>>>>>>> Wyatt
   m_Layer: 0
   m_Name: Cube
   m_TagString: Untagged
@@ -138,13 +149,21 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+HEAD
 --- !u!65 &1885168167
+=======
+--- !u!65 &1303709279
+>>>>>>> Wyatt
 BoxCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
+HEAD
   m_GameObject: {fileID: 1885168166}
+=======
+  m_GameObject: {fileID: 1303709278}
+>>>>>>> Wyatt
   m_Material: {fileID: 0}
   m_IncludeLayers:
     serializedVersion: 2
@@ -159,13 +178,21 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
+HEAD
 --- !u!23 &1885168168
+=======
+--- !u!23 &1303709280
+>>>>>>> Wyatt
 MeshRenderer:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
+HEAD
   m_GameObject: {fileID: 1885168166}
+=======
+  m_GameObject: {fileID: 1303709278}
+>>>>>>> Wyatt
   m_Enabled: 1
   m_CastShadows: 1
   m_ReceiveShadows: 1
@@ -207,24 +234,41 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+HEAD
 --- !u!33 &1885168169
+=======
+--- !u!33 &1303709281
+>>>>>>> Wyatt
 MeshFilter:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
+HEAD
   m_GameObject: {fileID: 1885168166}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
 --- !u!4 &1885168170
+=======
+  m_GameObject: {fileID: 1303709278}
+  m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!4 &1303709282
+>>>>>>> Wyatt
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
+ HEAD
   m_GameObject: {fileID: 1885168166}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0.5, y: 0.35, z: 0.5}
+=======
+  m_GameObject: {fileID: 1303709278}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -2.68153, y: 0, z: 1.28912}
+>>>>>>> Wyatt
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -455,4 +499,8 @@ SceneRoots:
   m_Roots:
   - {fileID: 2146456168}
   - {fileID: 1985871216}
+ HEAD
   - {fileID: 1885168170}
+=======
+  - {fileID: 1303709282}
+>>>>>>> Wyatt
