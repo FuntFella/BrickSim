@@ -2,20 +2,23 @@ using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.InputSystem;
 using System.Collections;
+using System.Collections.Generic;
 
 public class ClickAnywhereCounter : MonoBehaviour
 {
-    public int score = 0; // Score counter
-    public Text scoreText; // Drag your UI Text here
-    public Text timerText; // Drag your UI Text here for timer (top right)
-    public GameObject thingToActivate; // The thing you want to activate randomly
+    public int score = 0;
+    public Text scoreText;
+    public Text timerText;
 
-    public float checkInterval = 300f; // 5 minutes = 300 seconds
-    private float timeUntilNextActivation; // Countdown timer
+    // List of scripts that can be activated
+    public List<MonoBehaviour> scriptsToActivate;
+
+    public float checkInterval = 300f;
+    private float timeUntilNextActivation;
 
     void Start()
     {
-        timeUntilNextActivation = checkInterval; // Initialize countdown
+        timeUntilNextActivation = checkInterval;
         StartCoroutine(RandomActivationRoutine());
     }
 
@@ -33,26 +36,20 @@ public class ClickAnywhereCounter : MonoBehaviour
     void UpdateScoreUI()
     {
         if (scoreText != null)
-        {
             scoreText.text = "Score: " + score;
-        }
     }
 
     void UpdateTimerUI()
     {
         if (timerText != null)
         {
-            // Countdown timer display
             int minutes = Mathf.FloorToInt(timeUntilNextActivation / 60f);
             int seconds = Mathf.FloorToInt(timeUntilNextActivation % 60f);
-            timerText.text = string.Format("{0:00}:{1:00}", minutes, seconds);
+            timerText.text = $"{minutes:00}:{seconds:00}";
         }
 
-        // Decrease timer each frame
         if (timeUntilNextActivation > 0)
-        {
             timeUntilNextActivation -= Time.deltaTime;
-        }
     }
 
     IEnumerator RandomActivationRoutine()
@@ -60,25 +57,32 @@ public class ClickAnywhereCounter : MonoBehaviour
         while (true)
         {
             yield return new WaitForSeconds(checkInterval);
-            TryActivateRandomThing();
-            timeUntilNextActivation = checkInterval; // Reset countdown after activation
+            TryActivateRandomScript();
+            timeUntilNextActivation = checkInterval;
         }
     }
 
-    void TryActivateRandomThing()
+    void TryActivateRandomScript()
     {
         int randomNumber = Random.Range(0, 10000);
+
         if (randomNumber < score)
         {
-            print("YAY you got an event for being higher than " + randomNumber + "  GOOD JOB!!!!!!");
-            if (thingToActivate != null)
+            print($"Success! You beat {randomNumber}. Script activated!");
+
+            if (scriptsToActivate != null && scriptsToActivate.Count > 0)
             {
-                thingToActivate.SetActive(true);
+                // Pick a random script from the list
+                int index = Random.Range(0, scriptsToActivate.Count);
+                MonoBehaviour chosenScript = scriptsToActivate[index];
+
+                if (chosenScript != null)
+                    chosenScript.enabled = true;
             }
         }
         else
         {
-            print("sorry your number was lower than " + randomNumber + " so no event for you D:");
+            print($"No luck! {randomNumber} beat your score.");
         }
     }
 }

@@ -1983,7 +1983,10 @@ MonoBehaviour:
   score: 0
   scoreText: {fileID: 2089899922}
   timerText: {fileID: 1587457380}
-  thingToActivate: {fileID: 0}
+  scriptsToActivate:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
   checkInterval: 300
 --- !u!4 &293125239
 Transform:
@@ -11954,6 +11957,6 @@ SceneRoots:
   m_Roots:
   - {fileID: 330585546}
   - {fileID: 410087041}
-  - {fileID: 1121008529}
   - {fileID: 2026892496}
   - {fileID: 293125239}
+  - {fileID: 1121008529}
