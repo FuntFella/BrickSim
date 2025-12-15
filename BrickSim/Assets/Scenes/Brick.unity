@@ -5131,6 +5131,8 @@ Transform:
   - {fileID: 705917008}
   - {fileID: 1512202766}
   - {fileID: 1600171438}
+  - {fileID: 304110457381008935}
+  - {fileID: 7003851569472056025}
   m_Father: {fileID: 1121008529}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &847433951
@@ -13945,12 +13947,56 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 915433115640153526, guid: 7a92d70f42aca1d40aa5675904d4fb0a, type: 3}
   m_PrefabInstance: {fileID: 2133536892}
   m_PrefabAsset: {fileID: 0}
+--- !u!1001 &304110457381008934
 --- !u!1001 &2136028857
 PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
+    m_TransformParent: {fileID: 841242830}
+    m_Modifications:
+    - target: {fileID: 915965073648041389, guid: ce785f9104a2a944e8254e1c5f7b8a98, type: 3}
+      propertyPath: m_Name
+      value: Trash tower 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4252521382874227110, guid: ce785f9104a2a944e8254e1c5f7b8a98, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 6.55
+      objectReference: {fileID: 0}
+    - target: {fileID: 4252521382874227110, guid: ce785f9104a2a944e8254e1c5f7b8a98, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 1.6304699
+      objectReference: {fileID: 0}
+    - target: {fileID: 4252521382874227110, guid: ce785f9104a2a944e8254e1c5f7b8a98, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 1.93
+      objectReference: {fileID: 0}
+    - target: {fileID: 4252521382874227110, guid: ce785f9104a2a944e8254e1c5f7b8a98, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.99999696
+      objectReference: {fileID: 0}
+    - target: {fileID: 4252521382874227110, guid: ce785f9104a2a944e8254e1c5f7b8a98, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4252521382874227110, guid: ce785f9104a2a944e8254e1c5f7b8a98, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.0024991515
+      objectReference: {fileID: 0}
+    - target: {fileID: 4252521382874227110, guid: ce785f9104a2a944e8254e1c5f7b8a98, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4252521382874227110, guid: ce785f9104a2a944e8254e1c5f7b8a98, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4252521382874227110, guid: ce785f9104a2a944e8254e1c5f7b8a98, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0.286
+      objectReference: {fileID: 0}
+    - target: {fileID: 4252521382874227110, guid: ce785f9104a2a944e8254e1c5f7b8a98, type: 3}
     m_TransformParent: {fileID: 1640007124}
     m_Modifications:
     - target: {fileID: 1492680075615323762, guid: 5e9dfc284f47ee240a7bf279a27c0b30, type: 3}
@@ -14001,6 +14047,73 @@ PrefabInstance:
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: ce785f9104a2a944e8254e1c5f7b8a98, type: 3}
+--- !u!4 &304110457381008935 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 4252521382874227110, guid: ce785f9104a2a944e8254e1c5f7b8a98, type: 3}
+  m_PrefabInstance: {fileID: 304110457381008934}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &7003851569472056024
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 841242830}
+    m_Modifications:
+    - target: {fileID: 327154356502193362, guid: f3a6718d0c41dad4c80b3eb22758597f, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 14.06
+      objectReference: {fileID: 0}
+    - target: {fileID: 327154356502193362, guid: f3a6718d0c41dad4c80b3eb22758597f, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 2.0773897
+      objectReference: {fileID: 0}
+    - target: {fileID: 327154356502193362, guid: f3a6718d0c41dad4c80b3eb22758597f, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -1.99
+      objectReference: {fileID: 0}
+    - target: {fileID: 327154356502193362, guid: f3a6718d0c41dad4c80b3eb22758597f, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 327154356502193362, guid: f3a6718d0c41dad4c80b3eb22758597f, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 327154356502193362, guid: f3a6718d0c41dad4c80b3eb22758597f, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 327154356502193362, guid: f3a6718d0c41dad4c80b3eb22758597f, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 327154356502193362, guid: f3a6718d0c41dad4c80b3eb22758597f, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 327154356502193362, guid: f3a6718d0c41dad4c80b3eb22758597f, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 327154356502193362, guid: f3a6718d0c41dad4c80b3eb22758597f, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7763502138602098906, guid: f3a6718d0c41dad4c80b3eb22758597f, type: 3}
+      propertyPath: m_Name
+      value: Trash Tower 2
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: f3a6718d0c41dad4c80b3eb22758597f, type: 3}
+--- !u!4 &7003851569472056025 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 327154356502193362, guid: f3a6718d0c41dad4c80b3eb22758597f, type: 3}
+  m_PrefabInstance: {fileID: 7003851569472056024}
   m_SourcePrefab: {fileID: 100100000, guid: 5e9dfc284f47ee240a7bf279a27c0b30, type: 3}
 --- !u!4 &2136028858 stripped
 Transform:
