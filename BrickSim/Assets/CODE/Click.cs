@@ -64,11 +64,11 @@ public class ClickAnywhereCounter : MonoBehaviour
 
     void TryActivateRandomScript()
     {
-        int randomNumber = Random.Range(0, 1);
+        int randomNumber = Random.Range(0, 10);
 
         if (randomNumber < score)
         {
-            print($"you beat {randomNumber}. fun things comming your way!");
+            print($"you beat {randomNumber}. fun things coming your way!");
 
             if (scriptsToActivate != null && scriptsToActivate.Count > 0)
             {
@@ -82,7 +82,7 @@ public class ClickAnywhereCounter : MonoBehaviour
         }
         else
         {
-            print($"YOU SUCK {randomNumber} THIS NUMBER BEAT YOUR PUNY SCORE");
+            print($"YOU SUCK!!!!1 {randomNumber} <--- THIS NUMBER BEAT YOUR PUNY SCORE");
         }
     }
 }
