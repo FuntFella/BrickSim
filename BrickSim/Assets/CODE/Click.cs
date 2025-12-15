@@ -64,7 +64,7 @@ public class ClickAnywhereCounter : MonoBehaviour
 
     void TryActivateRandomScript()
     {
-        int randomNumber = Random.Range(0, 10000);
+        int randomNumber = Random.Range(0, 1);
 
         if (randomNumber < score)
         {
