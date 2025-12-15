@@ -7885,14 +7885,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e4d347ab5c1730143b6d7e7f3d66998e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Click
-  score: 0
+  score: 1
   scoreText: {fileID: 2089899922}
   timerText: {fileID: 1587457380}
   scriptsToActivate:
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  checkInterval: 300
+  - {fileID: 2026695828}
+  checkInterval: 10
 --- !u!4 &293125239
 Transform:
   m_ObjectHideFlags: 0
@@ -9021,8 +9019,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 330585543}
   serializedVersion: 2
-  m_LocalRotation: {x: 0.09957425, y: 0.47198072, z: -0.053749487, w: 0.874317}
-  m_LocalPosition: {x: -48.8535, y: 4.159027, z: -43.94698}
+  m_LocalRotation: {x: 0.027669352, y: 0.70131564, z: -0.027458083, w: 0.7117843}
+  m_LocalPosition: {x: -51.96279, y: 4.611893, z: -42.40631}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -50861,6 +50859,7 @@ Transform:
   m_PrefabInstance: {fileID: 2020928117}
   m_PrefabAsset: {fileID: 0}
 --- !u!1 &2021139178
+--- !u!1 &2026695827
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -50962,6 +50961,15 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 6674331767123995170, guid: f541db3448eff864c9be98349a7f39c0, type: 3}
   m_PrefabInstance: {fileID: 2025863851}
   m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2026695827}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -45.50399, y: 1, z: 6.85295}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &2026892492
 GameObject:
   m_ObjectHideFlags: 0
@@ -54262,3 +54270,4 @@ SceneRoots:
   - {fileID: 1614218560}
   - {fileID: 1751957153}
   - {fileID: 887404225}
+  - {fileID: 2026695829}

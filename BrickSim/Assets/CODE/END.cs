@@ -1,8 +1,8 @@
 using UnityEngine;
 
-public class EndGame : MonoBehaviour
+public class CloseGame : MonoBehaviour
 {
-    public void End()
+    public void Close()
     {
         Application.Quit();
     }
