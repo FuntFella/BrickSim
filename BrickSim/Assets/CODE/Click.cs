@@ -68,7 +68,7 @@ public class ClickAnywhereCounter : MonoBehaviour
 
         if (randomNumber < score)
         {
-            print($"Success! You beat {randomNumber}. Script activated!");
+            print($"you beat {randomNumber}. fun things comming your way!");
 
             if (scriptsToActivate != null && scriptsToActivate.Count > 0)
             {
@@ -82,7 +82,7 @@ public class ClickAnywhereCounter : MonoBehaviour
         }
         else
         {
-            print($"No luck! {randomNumber} beat your score.");
+            print($"YOU SUCK {randomNumber} THIS NUMBER BEAT YOUR PUNY SCORE");
         }
     }
 }
