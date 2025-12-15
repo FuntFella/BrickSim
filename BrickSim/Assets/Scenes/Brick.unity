@@ -7889,7 +7889,7 @@ MonoBehaviour:
   scoreText: {fileID: 2089899922}
   timerText: {fileID: 1587457380}
   scriptsToActivate:
-  - {fileID: 2026695828}
+  - {fileID: 0}
   checkInterval: 10
 --- !u!4 &293125239
 Transform:
@@ -47791,7 +47791,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 8531658113256380376, guid: ade4c0f6a4cac3744baff009e100a3a4, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0.60981846
+      value: 0.94
       objectReference: {fileID: 0}
     - target: {fileID: 8531658113256380376, guid: ade4c0f6a4cac3744baff009e100a3a4, type: 3}
       propertyPath: m_LocalPosition.y
@@ -47799,7 +47799,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8531658113256380376, guid: ade4c0f6a4cac3744baff009e100a3a4, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 0.016073227
+      value: 0.02
       objectReference: {fileID: 0}
     - target: {fileID: 8531658113256380376, guid: ade4c0f6a4cac3744baff009e100a3a4, type: 3}
       propertyPath: m_LocalRotation.w
@@ -50859,7 +50859,6 @@ Transform:
   m_PrefabInstance: {fileID: 2020928117}
   m_PrefabAsset: {fileID: 0}
 --- !u!1 &2021139178
---- !u!1 &2026695827
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -50869,12 +50868,12 @@ GameObject:
   m_Component:
   - component: {fileID: 2021139179}
   m_Layer: 0
-  m_Name: Flowers (15)
+  m_Name: 
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &2021139179
 Transform:
   m_ObjectHideFlags: 0
@@ -50961,10 +50960,32 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 6674331767123995170, guid: f541db3448eff864c9be98349a7f39c0, type: 3}
   m_PrefabInstance: {fileID: 2025863851}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &2026695827
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2026695828}
+  m_Layer: 0
+  m_Name: Flowers (15)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2026695828
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2026695827}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -45.50399, y: 1, z: 6.85295}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -54244,6 +54265,7 @@ Transform:
 SceneRoots:
   m_ObjectHideFlags: 0
   m_Roots:
+  - {fileID: 2026695828}
   - {fileID: 330585546}
   - {fileID: 410087041}
   - {fileID: 2026892496}
@@ -54270,4 +54292,3 @@ SceneRoots:
   - {fileID: 1614218560}
   - {fileID: 1751957153}
   - {fileID: 887404225}
-  - {fileID: 2026695829}
